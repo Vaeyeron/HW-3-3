@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace HW_3_3
 {
-    public interface IPrinter
+    interface IOne_Dim
     {
-        void Print();
+        void Remove_Elements_More_Than_Abs_100(int[] _array);
+        void Remove_Duplicate_Elements(int[] _array);
     }
 }

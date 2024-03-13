@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Days_Of_The_Week.cs" />
+    <Compile Include="IArray.cs" />
+    <Compile Include="IMulti_Dim.cs" />
+    <Compile Include="IOne_Dim.cs" />
     <Compile Include="IPrinter.cs" />
     <Compile Include="IJagged_Dim.cs" />
     <Compile Include="Jagged_Dim.cs" />

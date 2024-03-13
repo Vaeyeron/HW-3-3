@@ -8,6 +8,7 @@ namespace HW_3_3
 {
     public interface IJaggedArray
     {
-        public void Modify_Even_Elements(int[][] array);
+        void Calculate_Nested_Averages(int[][] _array);
+        void Modify_Even_Elements(int[][] _array);
     }
 }

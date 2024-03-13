@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace HW_3_3
 {
-    public interface IPrinter
+    interface IMulti_Dim
     {
-        void Print();
+        void Reverse_Even_Rows(int[,] _array);
     }
 }
